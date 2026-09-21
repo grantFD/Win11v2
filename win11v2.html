@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Guidemaker">
+  <!-- Meta PDF Name Injection -->
+  <meta name="pdf-filename" content="Windows 11 Upgrade Guide - Sep 2026.pdf">
+  <meta name="guide-title" content="Windows 11 Upgrade">
+  <title>Windows 11 Upgrade</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+      body { font-family: 'Open Sans', sans-serif; color: #4b5563; background-color: #ffffff; margin: 0; min-height: 100vh; }
+      h1, h2 { font-family: 'Quicksand', sans-serif; color: #026b7c; }
+      .header-bg { background-color: #00afb1; }
+      .header-text { color: #ffffff; }
+      .btn-yes, .btn-more-info, .btn-no, .btn-close, .btn-start-over, .btn-back, .btn-download {
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        cursor: pointer;
+      }
+      .btn-yes:hover, .btn-more-info:hover, .btn-no:hover, .btn-close:hover, .btn-start-over:hover, .btn-back:hover, .btn-download:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .btn-yes { background-color: #00afb1; }
+      .btn-more-info { background-color: #fec116; }
+      .btn-no, .btn-close { background-color: #f16375; }
+      .btn-back { background-color: #fec116; }
+      .btn-download {
+        background-color: #00afb1;
+        border: 2px solid #ffffff;
+        transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+      }
+      .btn-download:hover { background-color: #009698; }
+      .btn-download-icon { color: #ffffff; }
+      .how-to-block { background-color: #e4e0d2; border-left: 5px solid #fec116; padding: 1rem; border-radius: 0.375rem; margin: 1rem 0; }
+      .more-info-block { background-color: #dce5e5; border-right: 5px solid #026b7c; padding: 1rem; border-radius: 0.375rem; margin: 1rem 0; position: relative; }
+      .page-container { min-height: calc(100vh - 8rem); animation: fadeIn 0.5s ease-in-out; }
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+      .logo-icon { font-size: 2rem; line-height: 1; }
+      img { max-width: 100%; height: auto; display: block; margin: 1rem auto; border-radius: 0.375rem; }
+
+      /* Hanging Indents for compiled output */
+      .page-container ul { list-style-type: disc; list-style-position: outside; padding-left: 1.5em; margin-bottom: 1rem; }
+      .page-container ol { list-style-type: decimal; list-style-position: outside; padding-left: 1.5em; margin-bottom: 1rem; }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+  <div id="app" class="flex flex-col flex-1"></div>
+
+  <script>
+    const pages = {
+  "start": {
+    "type": "step",
+    "title": "What Windows 10 users need to know",
+    "content": "<p class=\"mb-4\"><span style=\"color: rgb(2, 107, 124); font-family: Quicksand, sans-serif; font-size: 1.5rem; font-weight: 700;\"><img src=\"Winflag.jpg\" alt=\"Winflag.jpg\" class=\"block my-4 rounded-lg shadow-sm mx-auto\" style=\"max-width: 100%; height: auto;\"></span></p><p class=\"mb-4\"><span style=\"color: rgb(2, 107, 124); font-family: Quicksand, sans-serif; font-size: 1.5rem; font-weight: 700;\">There is no more normal Windows 10 support</span></p><span id=\"docs-internal-guid-95749ab2-7fff-33ba-a668-8b3124b806b4\"><p class=\"mb-4\">Microsoft ended normal support for Windows 10 on 14 October 2025. Windows 10 computers still work, but they no longer receive normal security updates, feature updates or Microsoft technical support.&nbsp;</p><h2 class=\"text-xl font-bold mb-2\">But there is a temporary safety net</h2><p class=\"mb-4\">Eligible home users can enrol in Microsoft’s Extended Security Updates (ESU) programme. This provides important security updates for Windows 10 until 12 October 2027 but does not add new features or provide normal technical support.&nbsp;</p><p class=\"mb-4\">Your Windows 10 PC will not suddenly stop working. However, using Windows 10 without ESU now carries a greater security risk. If your PC can run Windows 11, upgrading is usually the simplest way to stay supported. If it cannot, consider ESU as a temporary measure or look at replacing the device.</p><h2 class=\"text-xl font-bold mb-2\">Act now</h2><p class=\"mb-4\">&nbsp;If you still use Windows 10, we recommend that you act now - either to upgrade or follow another path. This guide explains your choices in plain language.</p><div class=\"more-info-block p-4 rounded-md my-4\"><p class=\"font-bold\">More Info</p><p><a href=\"#why\" class=\"open-detail-modal text-teal-600 font-semibold underline\" data-page=\"why\">Why Support has ended</a></p><p><a href=\"#extended_support\" class=\"open-detail-modal text-teal-600 font-semibold underline\" data-page=\"extended_support\" style=\"font-family: &quot;Open Sans&quot;, system-ui, -apple-system, sans-serif;\">What does extended support cover?</a></p><p><a href=\"#1b_win_types\" class=\"open-detail-modal text-teal-600 font-semibold underline\" data-page=\"1b_win_types\">Do I need a specific type of Windows 11?</a></p></div><p><i>This Information has been checked against Microsoft support and lifecycle information in September 2026. Microsoft may change support dates or programme terms, so check Windows Update or Microsoft Support if you are reading this guide much later.&nbsp;</i></p></span>",
+    "question": "Begin?",
+    "nextStep": "choices",
+    "previousStep": "hide",
+    "noStep": "hide"
+  },
+  "finish": {
+    "type": "finish",
+    "title": "Finish guide",
+    "content": "<p>Fantastic! You're all set with Windows 11, or you've made a great plan for your next steps. Enjoy your secure and modern computing experience!</p>"
+  },
+  "why": {
+    "type": "detail",
+    "title": "Why Support has ended",
+    "content": "<p class=\"mb-4\">Windows 10 was released in 2015. Microsoft now wants users to move to Windows 11, which has newer security features and continues to receive regular updates. Windows 11 was first released in 2021 and is updated regularly.&nbsp;&nbsp;</p><p class=\"mb-4\">Windows 11 looks a little different from Windows 10, especially the Start menu and taskbar. Most everyday tasks are still familiar. It also includes newer security features and is the version of Windows that current PCs and software are designed to use.</p>",
+    "question": "Next?",
+    "nextStep": "finish"
+  },
+  "choices": {
+    "type": "step",
+    "title": "What should I do?",
+    "content": "<p class=\"mb-4\"><img src=\"Flow_Pic.jpg\" alt=\"Flow_Pic.jpg\" class=\"block my-4 rounded-lg shadow-sm mx-auto\" style=\"max-width: 100%; height: auto;\"><br></p><p class=\"mb-4\">On the follow pages we will take you through these steps to decide what is right for your computer.&nbsp;</p><ol class=\"list-decimal list-inside mb-4\"><li>Check which version of Windows you have<br></li><li>(if needs update)&nbsp;Check whether your PC can run Windows 11, and if so update it</li><li>(if it can't) You then have several choices - replace, ignore, delay or workaround.</li></ol>",
+    "question": "Continue?",
+    "nextStep": "1_version_check",
+    "previousStep": "hide",
+    "noStep": "hide"
+  },
+  "2checkcompatible": {
+    "type": "step",
+    "title": "2. Check whether your PC can run Windows 11",
+    "content": "<p class=\"mb-4\">The easiest and safest way to check is to use Microsoft’s PC Health Check app. It will tell you whether your computer meets the Windows 11 requirements and, if not, what is preventing the upgrade.</p><p class=\"mb-4\">Windows 11 requires, among other things:</p><ul class=\"list-disc list-inside mb-4\"><li>A compatible 64-bit processor with at least two cores</li><li>At least 4 GB of memory (RAM). In practice, 8 GB or more is more comfortable for everyday use.</li><li>At least 64 GB of storage</li><li>TPM 2.0 and a PC capable of Secure Boot - security features found in most newer PCs</li><li>Graphics that support DirectX 12 or later</li><li>A suitable display and internet connection for updates and setup</li></ul><div class=\"more-info-block p-4 rounded-md my-4\"><p class=\"font-bold\">More on other factors to consider</p><p><a href=\"#1c_safeupgrade\" class=\"open-detail-modal text-teal-600 font-semibold underline\" data-page=\"1c_safeupgrade\">Can I upgrade an older PC safely?</a><br></p></div><div class=\"how-to-block p-4 rounded-md my-4\"><p class=\"font-bold\">How to check</p><p>On Windows 10, search for PC Health Check from the taskbar. Open it and select Check now under the Windows 11 section. If it is not installed, download it from Microsoft at&nbsp; <a href=\"https://aka.ms/GetPCHealthCheckApp\" class=\"text-teal-600 font-semibold underline\" target=\"_blank\" rel=\"noopener\">https://aka.ms/GetPCHealthCheckApp</a>.</p><p>If PC Health Check says your PC is eligible, you can normally upgrade through Windows Update.</p><p>Go to <b>Start &gt; Settings &gt; Update &amp; Security &gt; Windows Update</b>, select Check for updates, and follow the Windows 11 instructions if the upgrade is offered.</p></div>",
+    "question": "Can you upgrade to Windows 11?",
+    "previousStep": "choices",
+    "noStep": "3_options",
+    "nextStep": "upgrading"
+  },
+  "1c_safeupgrade": {
+    "type": "detail",
+    "title": "Can I upgrade an older PC safely?",
+    "content": "<p class=\"mb-4\">Can I upgrade an older PC safely? Usually, yes - provided Microsoft says your PC is compatible. Before upgrading, check a few things:</p><ul class=\"list-disc list-inside mb-4\"><li><b>Printers and scanners: </b>Very old printers or scanners may not have Windows 11 drivers. Check the manufacturer’s support website for your exact model before upgrading.</li><li><b>Older software:</b> Most common programs work with Windows 11, but some old or specialised programs may not. Check anything that is important to you before upgrading.</li><li><b>Performance</b>: A PC that officially meets the Windows 11 requirements should normally run it well. Avoid forcing Windows 11 onto a PC that Microsoft says is unsupported.</li></ul>",
+    "question": "Proceed to next step?",
+    "previousStep": "start",
+    "noStep": "hide",
+    "nextStep": "finish"
+  },
+  "1b_win_types": {
+    "type": "detail",
+    "title": "Do I need a specific type of Windows 11?",
+    "content": "<p class=\"mb-4\">You’ll see Windows 11 advertised in 3 versions:</p><ul class=\"list-disc list-inside mb-4\"><li><b>Windows 11 Home: </b>Base version , the others are all variations of Windows 11 Home</li><li><b>Windows 11 Home S:</b> Same as Windows 11 Home, but runs in “safe mode”. It claims to be safer because it only runs applications installed from the official Microsoft Windows Store. This mode can be turned off, restoring full Windows 11 Home functionality.</li><li><span style=\"font-weight: bolder;\">Windows 11 Pro:</span> Adds some corporate management features such as BitLocker encryption. This puts everything on lockdown if your device is lost or stolen, so no one else can access your systems or data.</li></ul><p class=\"mb-4\">When you upgrade you get the same variant - from 10 Pro you’ll get 11 Pro, otherwise you’ll get Win 11 Home.</p>",
+    "question": "Proceed to next step?",
+    "previousStep": "start",
+    "noStep": "hide",
+    "nextStep": "finish"
+  },
+  "1_version_check": {
+    "type": "step",
+    "title": "1. Check your version of Windows",
+    "content": "<p class=\"mb-4\">First check your current version of Windows</p><p class=\"mb-4\"><div class=\"how-to-block p-4 rounded-md my-4\"><p class=\"font-bold mb-2\">How to check your Windows version</p><p>Select <b>Start &gt; Settings &gt; System &gt; About.</b></p><p>Look under Windows specifications for the Windows edition and version.</p></div></p><p class=\"mb-4\">If you already have Windows 11, you are okay. But make sure Windows Update is keeping it up to date. For most existing PCs, Windows 11 version 25H2 is the current supported feature release. Version 24H2 is still supported for Home and Pro until October 2026, so update to 25H2 when Windows Update offers it.</p><p class=\"mb-4\">If you're on Windows 10, continue to the next step, let's check if you can upgrade.</p>",
+    "question": "Proceed to next step or not?",
+    "previousStep": "choices",
+    "noStep": "finish",
+    "nextStep": "2checkcompatible"
+  },
+  "3_options": {
+    "type": "step",
+    "title": "3. Review your options",
+    "content": "<p class=\"mb-4\">If your PC cannot officially run Windows 11, you still have several choices - replace, delay, ignore or workaround.</p><h2 class=\"text-xl font-bold mb-2\">Replace the device now</h2><p class=\"mb-4\">Replacing the computer is often the simplest long-term choice if the current PC is old or unreliable. A replacement does not have to be expensive, and you may not need another full Windows PC.&nbsp; There are several good alternatives:</p><p class=\"mb-4\"><b>Use a tablet or phone instead</b></p><p class=\"mb-4\">If you mainly use email, websites, video calls, photos and banking, a current tablet or phone may do everything you need. For banking, use your bank’s official app or its genuine website in an up-to-date browser. Never follow banking links from unexpected emails or text messages.</p><p class=\"mb-4\"><b>Buy a new Windows 11 PC</b></p><p class=\"mb-4\">This is the easiest choice if you already know Windows or depend on Windows programs. Buy a current model that is officially supported for Windows 11, and let Windows Update keep it current. Avoid very cheap older stock that may have a short remaining support life.</p><p class=\"mb-4\"><b>Buy an Apple Mac</b></p><p class=\"mb-4\">A good option for people who already use an iPhone or iPad, although it works differently from Windows. New Macs use Apple silicon (M-series) processors. Don’t buy an older Intel-based Mac because Apple is stopping macOS support for these.</p><h2 class=\"text-xl font-bold mb-2\">Delay - wait until ESU support ends</h2><p class=\"mb-4\">For eligible home PCs, Microsoft’s Consumer ESU programme provides critical and important Windows 10 security updates until 12 October 2027. It is a temporary measure, not a permanent replacement for moving to a supported operating system.&nbsp;</p><p class=\"mb-4\">The other 2 options - ignore or workaround - are not recommended but are discussed on the next page.</p>",
+    "question": "Proceed to next page?",
+    "previousStep": "2checkcompatible",
+    "noStep": "finish",
+    "nextStep": "4_notrecommended"
+  },
+  "4_notrecommended": {
+    "type": "step",
+    "title": "Other possible alternatives",
+    "content": "<h2 class=\"text-xl font-bold mb-2\" style=\"color: rgb(2, 107, 124);\">Ignore - keep using Windows 10 without support</h2><p class=\"mb-4\">We do not recommend using an unsupported Windows 10 PC for normal internet use. Without security updates, the risk increases over time. This is especially important if the computer contains passwords, personal information or financial records.</p><h2 class=\"text-xl font-bold mb-2\">Workaround - find a technical alternative</h2><p class=\"mb-4\">There are other ways to keep an older computer useful, but they are best handled by someone with good technical knowledge.&nbsp;</p><p class=\"mb-4\"><b>Install Windows 11 on unsupported hardware</b></p><p class=\"mb-4\">It is possible to bypass some Windows 11 hardware checks, but Microsoft does not recommend installing Windows 11 on a PC that does not meet the minimum requirements. Unsupported PCs may have compatibility problems and are not guaranteed to receive updates. For most seniors, we recommend staying with supported options.</p><p class=\"mb-4\"><b>Replace Windows with another operating system (like Linux or ChromeOS Flex)</b></p><p class=\"mb-4\">Linux is a free, open-source operating system that can work well on some older computers. It can be secure and well supported when kept up to date, but changing to Linux means learning a different system and some familiar Windows programs may not work. It is best set up with help from an experienced person.</p><p class=\"mb-4\">ChromeOS Flex is Google’s lightweight operating system for compatible PCs and Macs. It can make some older computers useful for web browsing and other simple tasks. Installing it erases Windows, so files must be backed up first. ChromeOS Flex does not provide the full Google Play Store or normal Android-app support. We suggest getting technical help before changing an existing PC to ChromeOS Flex.</p>",
+    "question": "Ready to finish?",
+    "previousStep": "3_options",
+    "noStep": "hide",
+    "nextStep": "finish"
+  },
+  "extended_support": {
+    "type": "detail",
+    "title": "What does extended support cover?",
+    "content": "<p class=\"mb-4\">Microsoft Extended Security Updates (ESU) programme provides critical and important Windows 10 security updates until 12 October 2027. It is a temporary measure, not a permanent replacement for moving to a supported operating system.</p><p class=\"mb-4\">ESU provides security updates only. It does not provide new Windows features, general bug fixes or normal Microsoft technical support.</p><p class=\"mb-4\">To enrol, the PC must be running Windows 10 version 22H2 with the latest updates. The Microsoft account used for enrolment must be an administrator account. You can normally enrol from <b>Settings &gt; Update &amp; Security &gt; Windows Update.</b></p><p class=\"mb-4\">Microsoft currently offers three consumer enrolment methods:</p><ul class=\"list-disc list-inside mb-4\"><li>no additional cost if you sync PC settings using Windows Backup,</li><li>1,000 Microsoft Rewards points,</li><li>or a one-time payment of US$30 (or local equivalent, plus any applicable tax). An ESU licence can cover up to 10 eligible personal devices linked to the same Microsoft account.</li></ul>",
+    "question": "Proceed to next step?",
+    "previousStep": "3_options",
+    "noStep": "hide",
+    "nextStep": "finish"
+  },
+  "upgrading": {
+    "type": "step",
+    "title": "Upgrading to Win11",
+    "content": "<p class=\"mb-4\">Before you start, back up your important files and check that essential printers, scanners and older programs will work with Windows 11.</p><p class=\"mb-4\">A Windows upgrade can take some time and may involve several restarts. Digital Seniors does not normally perform full operating-system upgrades. If you are not confident, ask a trusted technician or experienced helper.</p><p class=\"mb-4\">For a normal free upgrade, Microsoft says an eligible Windows 10 PC should be running Windows 10 version 22H2 with current updates installed.&nbsp;</p><p class=\"mb-4\">An upgrade process will include the following:</p><h2 class=\"text-xl font-bold mb-2\">Before installing</h2><ol class=\"list-decimal list-inside mb-4\"><li>Back up your important files. Make sure you know where your photos, documents and other important information are stored.</li><li>Check that any important older programs will work with Windows 11.</li><li>Check that your printer, scanner and other important devices have Windows 11 support.</li><li>Install the latest Windows 10 updates before starting.</li><li>Make sure the computer is plugged into power and has enough free storage space.</li><li>If you use device encryption or BitLocker, make sure you can access your recovery key before making major changes</li></ol><h2 class=\"text-xl font-bold mb-2\">Installing</h2><ol class=\"list-decimal list-inside mb-4\"><li>Start the Windows 11 upgrade from Windows Update when it is offered.</li><li>Follow the on-screen instructions. The computer will restart several times.</li></ol><h2 class=\"text-xl font-bold mb-2\">After Installing</h2><ol class=\"list-decimal list-inside mb-4\"><li>Check that Windows is activated. In most cases activation happens automatically.</li><li>Connect to the internet.</li><li>Run Windows Update again and install any remaining updates.</li><li>Open Microsoft Store and update your apps if needed.</li><li>Check that your printer, scanner, sound, camera and other devices work correctly.</li><li>Take a little time to learn the new Start menu and taskbar.</li></ol>",
+    "question": "Have you upgraded?",
+    "previousStep": "2checkcompatible",
+    "noStep": "hide",
+    "nextStep": "finish"
+  }
+};
+    const pdfFilename = "Windows 11 Upgrade Guide - Sep 2026.pdf";
+    const guideTitle = "Windows 11 Upgrade";
+    let currentPageId = 'start';
+    let historyStack = [];
+
+    function navigateTo(targetPageId) {
+      if (!pages[targetPageId]) return;
+      historyStack.push(currentPageId);
+      currentPageId = targetPageId;
+      render();
+    }
+
+    function goBack() {
+      if (historyStack.length > 0) {
+        currentPageId = historyStack.pop();
+        render();
+      } else {
+        currentPageId = 'start';
+        render();
+      }
+    }
+
+    function render() {
+      window.scrollTo(0, 0);
+      const app = document.getElementById('app');
+      const page = pages[currentPageId];
+      if (!page) return;
+
+      let navButtonsHtml = '';
+
+      if (page.type === 'step') {
+        const hasPrev = page.previousStep && page.previousStep !== 'hide';
+        const hasNo = page.noStep && page.noStep !== 'hide';
+        const hasNext = page.nextStep && page.nextStep !== 'hide';
+
+        navButtonsHtml = `
+          <p class="text-lg md:text-xl font-bold mb-4 text-center">${page.question || ''}</p>
+          <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center">
+            ${hasPrev ? `
+              <div class="flex flex-col items-center space-y-2">
+                <button onclick="goBack()" class="btn-back text-white font-bold text-xl py-3 px-6 rounded-full w-full md:w-48">&lt; Back</button>
+                <span class="text-xs text-center w-full md:w-48">${pages[page.previousStep] ? pages[page.previousStep].title : ''}</span>
+              </div>
+            ` : ''}
+            ${hasNo ? `
+              <div class="flex flex-col items-center space-y-2">
+                <button onclick="navigateTo('${page.noStep}')" class="btn-no text-white font-bold text-xl py-3 px-6 rounded-full w-full md:w-48">No &gt;</button>
+                <span class="text-xs text-center w-full md:w-48">${pages[page.noStep] ? pages[page.noStep].title : ''}</span>
+              </div>
+            ` : ''}
+            ${hasNext ? `
+              <div class="flex flex-col items-center space-y-2">
+                <button onclick="navigateTo('${page.nextStep}')" class="btn-yes text-white font-bold text-xl py-3 px-6 rounded-full w-full md:w-48">Yes &gt;</button>
+                <span class="text-xs text-center w-full md:w-48">${pages[page.nextStep] ? pages[page.nextStep].title : ''}</span>
+              </div>
+            ` : ''}
+          </div>
+        `;
+      } else if (page.type === 'finish') {
+        navButtonsHtml = `
+          <div class="flex justify-between space-x-4">
+            <button onclick="historyStack=[]; navigateTo('start')" class="btn-yes text-white font-bold text-xl py-3 px-6 rounded-full w-1/2">Start Over</button>
+            <button onclick="window.close()" class="btn-close text-white font-bold text-xl py-3 px-6 rounded-full w-1/2">Close Guide</button>
+          </div>
+        `;
+      } else if (page.type === 'detail') {
+        navButtonsHtml = `
+          <div class="flex justify-end">
+            <button onclick="goBack()" class="btn-close text-white font-bold text-xl py-3 px-6 rounded-full">Close</button>
+          </div>
+        `;
+      }
+
+      app.innerHTML = `
+        <div class="page-container flex-1 p-4 md:p-8 flex flex-col items-center">
+          <header class="header-bg text-white w-full rounded-b-lg mb-8 p-4 md:p-6 shadow-md flex flex-col items-center">
+            <div class="flex justify-between items-center w-full max-w-2xl">
+              <div class="flex items-center space-x-2">
+                <span class="logo-icon"><img src="Digital Seniors Logo 100.png" alt="Logo" class="h-8 w-auto"></span>
+                <span class="text-white text-xl md:text-2xl font-bold">${guideTitle}</span>
+              </div>
+              <div class="flex items-center space-x-2 group relative">
+                <button id="download-btn" class="btn-download w-10 h-10 rounded-full flex items-center justify-center" title="Get PDF Version">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 btn-download-icon">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                </button>
+                <span class="absolute right-12 bg-gray-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">Get PDF version</span>
+              </div>
+            </div>
+          </header>
+
+          <div class="bg-gray-50 rounded-xl shadow-xl p-8 w-full max-w-2xl flex flex-col items-center">
+            <main class="w-full mb-8 text-xl">
+              <h1 class="text-2xl md:text-3xl font-bold mb-4">${page.title}</h1>
+              ${page.content}
+            </main>
+            <div id="navigation-block" class="navigation-block w-full mt-auto px-4">${navButtonsHtml}</div>
+          </div>
+        </div>
+
+        <footer class="header-bg text-white w-full rounded-t-lg mt-8 p-2 text-sm text-center">
+          <p class="text-white font-thin text-xs">&copy; 2025 FD Interactive</p>
+        </footer>
+      `;
+
+      const downloadBtn = document.getElementById('download-btn');
+      if (downloadBtn) {
+        downloadBtn.addEventListener('click', () => {
+          if (pdfFilename) {
+            window.open(pdfFilename, '_blank');
+          } else {
+            alert('No PDF document filename has been configured for this guide.');
+          }
+        });
+      }
+    }
+
+    document.addEventListener('click', (e) => {
+      const link = e.target.closest('a[href^="#"]');
+      if (link) {
+        e.preventDefault();
+        const targetId = link.getAttribute('href').substring(1);
+        if (pages[targetId]) {
+          navigateTo(targetId);
+        }
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', render);
+  </script>
+</body>
+</html>
